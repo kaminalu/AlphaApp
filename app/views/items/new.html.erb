@@ -1,16 +1,18 @@
 <h1>Create a New Item</h1>
+
 <%= form_for :item do |f| %>
-  <p>
+
+  <div class= "field">
     <%= f.label :item %><br>
     <%= f.text_field :item %>
-  </p>
+  </div>
  
-  <p>
+  <div class= "field">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
-  </p>
+    <%= f.text_area :description, rows: 10, cols: 60 %>
+  </div>
  
-  <p>
+  <div class= "actions">
     <%= f.submit %>
-  </p>
+  </div>
 <% end %>
