@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <th>Item</th>
+    <th>Article</th>
     <th>Description</th>
     <th></th>
     <th></th>
@@ -13,7 +13,7 @@
  
 <% @items.each do |item| %>
   <tr>
-    <td><%= item.item %></td>
+    <td><%= item.article %></td>
     <td><%= item.description %></td>
     <td><%= link_to "Show", item %></td>
     <td><%= link_to "Edit", edit_item_path(item) %></td>
