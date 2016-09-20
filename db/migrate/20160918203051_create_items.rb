@@ -5,7 +5,7 @@ class CreateItems < ActiveRecord::Migration[5.0]
       t.text :description
       #t.string :image_url
       #t.string :size
-      #Unhash the above when ready to implement new data options 
+      #Migrate the above when ready to implement new data options 
 
       t.timestamps
     end
