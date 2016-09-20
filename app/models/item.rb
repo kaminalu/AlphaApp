@@ -1,5 +1,5 @@
 class Item < ApplicationRecord
-  validates :item, presence: true
+  validates :article, presence: true
   validates :description, presence: true
-  belongs_to :user
+  belongs_to :category
 end
