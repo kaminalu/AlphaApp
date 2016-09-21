@@ -1,7 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  category: MyString
+category_one:
+  category: Clothing
 
-two:
-  category: MyString
+category_two:
+  category: Home
+  
+category_three:
+  category: Accessories

@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  item: MyText
-  description: MyString
+item_one:
+  article: Dress
+  description: Cute black dress.
+  category: category_one
 
-two:
-  item: MyText
-  description: MyString
+item_two: 
+  article: Sweater
+  description: Blue argyle sweater.
+  category: category_one
