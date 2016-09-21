@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :classifications
   resources :items, :categories
  
   root 'items#index'
